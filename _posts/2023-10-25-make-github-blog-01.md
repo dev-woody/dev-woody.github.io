@@ -11,7 +11,7 @@ toc_label: "Github 블로그 만들기"
 
 ### 이전 포스팅
 
-> [환경 세팅하기](https://dev-woody.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85/)
+> [환경 세팅하기](https://dev-woody.github.io/posts/blog-config-setting/)
 
 ---
 
@@ -147,4 +147,4 @@ $ git push # 깃허브에 푸시 (안된다면 git push --force 를 해보자)
 
 ### 다음 포스팅
 
-> [Github 블로그 만들기 [2]](https://dev-woody.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-2/)
+> [Github 블로그 만들기 [2]](https://dev-woody.github.io/posts/make-github-blog-02/)

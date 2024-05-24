@@ -11,7 +11,7 @@ toc_label: "Github 블로그 만들기"
 
 ### 이전 포스팅
 
-> [환경 세팅하기](https://dev-woody.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85/) <br> > [Github 블로그 만들기 [1]](https://dev-woody.github.io/posts/M1-Mac-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/) <br>
+> [환경 세팅하기](https://dev-woody.github.io/posts/blog-config-setting/) <br> [Github 블로그 만들기 [1]](https://dev-woody.github.io/posts/make-github-blog-01/) <br>
 
 ---
 
