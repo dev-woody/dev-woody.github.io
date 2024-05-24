@@ -11,11 +11,11 @@ toc_label: "Nextjs14 업데이트"
 
 ### 이전 포스팅
 
-> [환경 세팅하기](https://devw00dy.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85/)<br> [Github 블로그 만들기 [1]](https://devw00dy.github.io/posts/M1-Mac-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/) <br> [Github 블로그 만들기 [2]](https://devw00dy.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-2/)
+> [환경 세팅하기](https://dev-woody.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85/)<br> [Github 블로그 만들기 [1]](https://dev-woody.github.io/posts/M1-Mac-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/) <br> [Github 블로그 만들기 [2]](https://dev-woody.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-2/)
 
 ---
 
-<img alt="markdown" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/c4ca58cc-d6c3-42e5-90ab-dbc2f368535f" />
+<img alt="markdown" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/c4ca58cc-d6c3-42e5-90ab-dbc2f368535f" />
 
 > 마크다운 (Markdown)은 마크업 언어의 일종으로 읽기도 쓰기도 쉬운 문서 양식을 지향한다. `github의 README.md` 파일이 바로 마크다운으로 작성된 파일이다. 또 옵시디언이나 노션도 마크다운이니 예쁘게 작성하고싶다면 작성법을 익혀두자.
 
@@ -122,10 +122,10 @@ _이텔릭 효과_ <br>
 링크를 응용한다면 이미지에 링크를 걸 수 있다.
 ```
 
-<img alt="blog-img" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/43decc30-b322-4725-babf-5463761d4f0f" />
+<img alt="blog-img" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/43decc30-b322-4725-babf-5463761d4f0f" />
 
 `링크 이미지` <br>
-[<img alt="small-blog-img" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/5657388f-6eae-4847-b49a-8c4630022083" width="200px" height="200px" />](https://devw00dy.github.io/)
+[<img alt="small-blog-img" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/5657388f-6eae-4847-b49a-8c4630022083" width="200px" height="200px" />](https://dev-woody.github.io/)
 
 ## 코드 Code
 

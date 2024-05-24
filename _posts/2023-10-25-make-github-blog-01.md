@@ -11,11 +11,11 @@ toc_label: "Github 블로그 만들기"
 
 ### 이전 포스팅
 
-> [환경 세팅하기](https://devw00dy.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85/)
+> [환경 세팅하기](https://dev-woody.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85/)
 
 ---
 
-<img alt="jekyll-logo" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/3f6d38a6-899e-489c-8797-e955b00ddd7f" >
+<img alt="jekyll-logo" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/3f6d38a6-899e-489c-8797-e955b00ddd7f" >
 
 > 개발 기술 블로그를 위한 깃허브 블로그 작성법이다. <br>
 > M1 맥북을 기준으로 작성되었다. <br>
@@ -48,13 +48,13 @@ Bundler version 2.4.10
 깃허브 홈페이지로 이동해서 새로 레퍼지토리를 생성해준다.
 녹색의 `New` 버튼을 누르면 된다.
 
-<img alt="github-reposittories" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/9df203bc-62ce-425b-b412-90f1764bb17f" >
+<img alt="github-reposittories" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/9df203bc-62ce-425b-b412-90f1764bb17f" >
 
 레퍼지토리의 이름은 `{본인 깃허브 아이디}.github.io`로 작성해준다.
 그래야 블로그로 쓸 수 있다. <br>
 공개범위는 Public에 그대로 두고 생성하면 된다. 다른 설정 안 만져도 된다.
 
-<img width="725" alt="github" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/0e830311-29fe-4b6c-9061-7546b70ceb9f">
+<img width="725" alt="github" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/0e830311-29fe-4b6c-9061-7546b70ceb9f">
 
 생성했으면 레퍼지토리에 들어가서 Code라고 쓰여있는 버튼을 눌러 HTTPS 밑에 쓰여있는 주소를 복사해주자<br>
 그리고 데스크탑에 폴더를 하나 만들어서 터미널로 열고 깃허브 명령어를 입력해준다.
@@ -137,7 +137,7 @@ $ git push # 깃허브에 푸시 (안된다면 git push --force 를 해보자)
 
 깃 명령어는 나중에 따로 다루도록 하고 이제 본인아이디.github.io로 들어가면 테마가 적용된 것을 볼 수 있다.
 
-<img width="2230" alt="Chirpy-demo" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/3fc72fab-b912-4ee8-a7dc-90c1b9a3d5ba">
+<img width="2230" alt="Chirpy-demo" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/3fc72fab-b912-4ee8-a7dc-90c1b9a3d5ba">
 
 ## 마무리
 
@@ -147,4 +147,4 @@ $ git push # 깃허브에 푸시 (안된다면 git push --force 를 해보자)
 
 ### 다음 포스팅
 
-> [Github 블로그 만들기 [2]](https://devw00dy.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-2/)
+> [Github 블로그 만들기 [2]](https://dev-woody.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-2/)

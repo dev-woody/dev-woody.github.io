@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://devw00dy.github.io/sitemap.xml
+Sitemap: https://dev-woody.github.io/sitemap.xml

@@ -87,4 +87,4 @@ $ source ~/.zshrc
 
 ### 다음 포스팅
 
-> [Github 블로그 만들기 [1]](https://devw00dy.github.io/posts/make-github-blog-01/) <br> [Github 블로그 만들기 [2]](https://devw00dy.github.io/posts/make-github-blog-02/)
+> [Github 블로그 만들기 [1]](https://dev-woody.github.io/posts/make-github-blog-01/) <br> [Github 블로그 만들기 [2]](https://dev-woody.github.io/posts/make-github-blog-02/)

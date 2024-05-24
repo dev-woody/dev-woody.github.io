@@ -24,10 +24,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://devw00dy.github.io"
+url: "https://dev-woody.github.io"
 
 github:
-  username: devw00dy # change to your github username
+  username: dev-woody # change to your github username
 
 twitter:
   username: some1like_me_ # change to your twitter username
@@ -43,7 +43,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/some1like_me_ # change to your twitter homepage
-    - https://github.com/devw00dy # change to your github homepage
+    - https://github.com/dev-woody # change to your github homepage
     - https://www.instagram.com/dev_w00dy
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -90,7 +90,7 @@ comments:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: devw00dy/devw00dy.github.io # <gh-username>/<repo>
+    repo: dev-woody/dev-woody.github.io # <gh-username>/<repo>
     issue_term: title # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:

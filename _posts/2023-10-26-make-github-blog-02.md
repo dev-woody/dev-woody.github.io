@@ -11,11 +11,11 @@ toc_label: "Github 블로그 만들기"
 
 ### 이전 포스팅
 
-> [환경 세팅하기](https://devw00dy.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85/) <br> > [Github 블로그 만들기 [1]](https://devw00dy.github.io/posts/M1-Mac-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/) <br>
+> [환경 세팅하기](https://dev-woody.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85/) <br> > [Github 블로그 만들기 [1]](https://dev-woody.github.io/posts/M1-Mac-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/) <br>
 
 ---
 
-<img alt="github" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/d244244e-35ed-4480-b6d9-c1fcc5099e90" >
+<img alt="github" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/d244244e-35ed-4480-b6d9-c1fcc5099e90" >
 
 > 개발 기술 블로그를 위한 깃허브 블로그 작성법이다. <br>
 > M1 맥북을 기준으로 작성되었다. <br>
@@ -24,24 +24,24 @@ toc_label: "Github 블로그 만들기"
 
 이제 본인정보에 맞춰서 설정만 변경하면 개인 블로그가 생성된다.
 
-<img width="524" alt="config" src="https://github.com/devw00dy/devw00dy.github.io/assets/87690037/c981ec5e-2813-4c9e-9eed-e0f2d53e92e9">
+<img width="524" alt="config" src="https://github.com/dev-woody/dev-woody.github.io/assets/87690037/c981ec5e-2813-4c9e-9eed-e0f2d53e92e9">
 
 ### \_config.yml
 
 \_config.yml을 열어서 변경하면된다. 수정 후 로컬서버는 재구동해주자.
 
-| 키                       | 값                           | 설명                                                                                                                                                        |
-| ------------------------ | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| lang                     | ko                           | 언어설정이다. 어떤 언어를 쓸 수 있는지는 \_data.locales에서 확인 가능하다.                                                                                  |
-| timezone                 | Asia/Seoul                   | 시간 설정이다. 서울로 해두자.                                                                                                                               |
-| title                    | 타이틀                       | 블로그 이름이다.                                                                                                                                            |
-| tagline                  | 부타이틀                     | 이름 밑에 들어가는 작은 설명이다.                                                                                                                           |
-| description              | 설명                         | SEO에 적용되는 키워드다. 검색 필터에 적용된다고 생각하면 된다.                                                                                              |
-| url                      | "https://devw00dy.github.io" | 블로그에 접속될 URL이다.                                                                                                                                    |
-| google_site_verification | 나중에 설정                  | 구글 검색 노출 설정이다. 추후에 추가할것이다.                                                                                                               |
-| google_analytics         | 나중에 설정                  | 방문자 조사같은거다. 어떤 경로로 어느 페이지에 있는지 알 수 있다.                                                                                           |
-| img_cdn                  | ""                           | 이미지의 루트 경로같다. \_post 폴더를 지우지 않았다면 비우지말자. 깃허브에 푸시해도 적용이 안된다. 폴더를 지웠다면 비워두자. 그래야 프로필 이미지가 보인다. |
-| avatar                   | 프로필 이미지                | 프로필에 설정되는 이미지다. 보통 "/assets/img/"에 넣어둔다.                                                                                                 |
+| 키                       | 값                            | 설명                                                                                                                                                        |
+| ------------------------ | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| lang                     | ko                            | 언어설정이다. 어떤 언어를 쓸 수 있는지는 \_data.locales에서 확인 가능하다.                                                                                  |
+| timezone                 | Asia/Seoul                    | 시간 설정이다. 서울로 해두자.                                                                                                                               |
+| title                    | 타이틀                        | 블로그 이름이다.                                                                                                                                            |
+| tagline                  | 부타이틀                      | 이름 밑에 들어가는 작은 설명이다.                                                                                                                           |
+| description              | 설명                          | SEO에 적용되는 키워드다. 검색 필터에 적용된다고 생각하면 된다.                                                                                              |
+| url                      | "https://dev-woody.github.io" | 블로그에 접속될 URL이다.                                                                                                                                    |
+| google_site_verification | 나중에 설정                   | 구글 검색 노출 설정이다. 추후에 추가할것이다.                                                                                                               |
+| google_analytics         | 나중에 설정                   | 방문자 조사같은거다. 어떤 경로로 어느 페이지에 있는지 알 수 있다.                                                                                           |
+| img_cdn                  | ""                            | 이미지의 루트 경로같다. \_post 폴더를 지우지 않았다면 비우지말자. 깃허브에 푸시해도 적용이 안된다. 폴더를 지웠다면 비워두자. 그래야 프로필 이미지가 보인다. |
+| avatar                   | 프로필 이미지                 | 프로필에 설정되는 이미지다. 보통 "/assets/img/"에 넣어둔다.                                                                                                 |
 
 ## 포스팅하기
 
