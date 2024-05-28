@@ -33,7 +33,7 @@ twitter:
   username: some1like_me_ # change to your twitter username
 
 instagram:
-  username: dev_w00dy # change to your twitter username
+  username: dev-woody # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,7 +44,7 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/some1like_me_ # change to your twitter homepage
     - https://github.com/dev-woody # change to your github homepage
-    - https://www.instagram.com/dev_w00dy
+    - https://www.instagram.com/dev-woody
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
