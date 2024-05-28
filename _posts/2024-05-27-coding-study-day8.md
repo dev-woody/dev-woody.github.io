@@ -1,6 +1,6 @@
 ---
 published: true
-title: 99클럽 코테 스터디 Count Pairs Whose Sum is Less than Target
+title: 99클럽 코테 스터디 8일차 Count Pairs Whose Sum is Less than Target
 date: 2024-05-27
 categories: [Coding Test]
 tags:
