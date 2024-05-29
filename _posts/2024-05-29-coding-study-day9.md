@@ -1,7 +1,7 @@
 ---
 published: true
-title: 99클럽 코테 스터디 9일차 최소직사각형
-date: 2024-05-28
+title: 99클럽 코테 스터디 10일차 최소직사각형
+date: 2024-05-29
 categories: [Coding Test]
 tags:
   [
