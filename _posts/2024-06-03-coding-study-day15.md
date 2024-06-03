@@ -31,14 +31,14 @@ A binary tree's maximum depth is the number of nodes along the longest path from
 
 #### Example 1:
 
-<image alt="binary node" src="https://assets.leetcode.com/uploads/2020/11/26/tmp-tree.jpg">
+<image alt="binary node" src="https://assets.leetcode.com/uploads/2020/11/26/tmp-tree.jpg"/>
 
-Input: root = [3,9,20,null,null,15,7]<br>
+Input: root = [3,9,20,null,null,15,7]<br/>
 Output: 3
 
 #### Example 2:
 
-Input: root = [1,null,2]<br>
+Input: root = [1,null,2]<br/>
 Output: 2
 
 ## 학습 키워드
@@ -116,8 +116,8 @@ class Solution:
         return max_depth
 ```
 
-스택을 사용하여 노드와 현재 깊이를 저장한다. <br>
-스택이 빌 때까지 노드를 팝하여 현재 깊이를 갱신하고, 왼쪽과 오른쪽 자식을 스택에 추가한다. <br>
+스택을 사용하여 노드와 현재 깊이를 저장한다. <br/>
+스택이 빌 때까지 노드를 팝하여 현재 깊이를 갱신하고, 왼쪽과 오른쪽 자식을 스택에 추가한다. <br/>
 스택에서 노드를 팝할 때마다 최대 깊이를 갱신한다.
 
 이 방식은 속도가 훨씬 빨랐다. 같은 문제라도 여러가시 방법을 생각해서 풀어봐야겠다.
