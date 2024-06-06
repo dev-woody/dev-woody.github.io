@@ -72,22 +72,48 @@ toc_label: "항해99"
 3. 여벌의 체육복을 가진 학생들이 체육복을 잃어버린 학생들에게 빌려줄 수 있는지 확인한다.
 4. 최대한 많은 학생들이 체육복을 빌릴 수 있도록 하여 최종적으로 체육 수업에 참여할 수 있는 학생 수를 구한다.
 
+처음 작성한 코드는 다음과 같다.
+
 ```python
 def solution(n, lost, reserve):
-    # 여벌의 체육복을 가진 학생 목록에서 체육복을 잃어버린 학생 제거
+    answer = 0
+
+    lost.sort()
+    reserve.sort()
+
+    lost_set = lost[:]
+    reserve_set = reserve[:]
+
+
+    for i in lost :
+        if i in reserve :
+            lost_set.remove(i)
+            reserve_set.remove(i)
+
+    for i in reserve_set :
+        if i - 1 in lost_set :
+            lost_set.remove(i - 1)
+        elif i + 1 in lost_set :
+            lost_set.remove(i + 1)
+
+    answer = n - len(lost_set)
+    return answer
+```
+
+이 코드는 많은 반복문과 조건문이 있어서 복잡하고 효율적이지 않았다. 더 간단하게 작성하고자 하였고 집합의 연산을 사용하여 다시 작성하였다.
+
+```python
+def solution(n, lost, reserve):
+
     reserve_set = set(reserve) - set(lost)
-    # 체육복을 잃어버린 학생 목록에서 여벌의 체육복을 가진 학생 제거
     lost_set = set(lost) - set(reserve)
 
     for i in reserve_set:
-        # 앞 번호 학생이 체육복을 잃어버린 경우
         if i - 1 in lost_set:
             lost_set.remove(i - 1)
-        # 뒷 번호 학생이 체육복을 잃어버린 경우
         elif i + 1 in lost_set:
             lost_set.remove(i + 1)
 
-    # 최종적으로 체육 수업에 참여할 수 있는 학생 수 계산
     answer = n - len(lost_set)
     return answer
 ```
@@ -98,10 +124,13 @@ def solution(n, lost, reserve):
 2. 여벌의 체육복을 가진 학생들이 체육복을 잃어버린 학생들에게 빌려줄 수 있는지 확인한다.
 3. 체육복을 빌릴 수 있는 학생들을 최대한 빌려주고, 체육 수업에 참여할 수 있는 총 학생 수를 계산한다.
 
+### 무엇을 새롭게 알았는지
+
+이번 문제를 해결하면서 집합 연산을 활용한 효율적인 중복 제거 방법과 그리디 알고리즘을 활용한 최적의 해결 방법을 배웠다. 특히, 문제 해결을 위해 주어진 조건을 활용하여 불필요한 중복 작업을 줄이는 방법을 익혔다. 이를 통해 파이썬에서 집합과 그리디 알고리즘을 효과적으로 활용하는 방법을 배울 수 있었다.
+
+- list에서 remove()를 쓰면서 for문을 돌리면 잘못된 값이 나온다.
+- 집합의 연산은 자동으로 값을 `sort()` 해준다.
+
 ## 내일의 학습 계획
 
-그리디 알고리즘이 무엇인지 알아보기, 오늘 풀었던 문제 오답노트하기!
-
-list에서 remove()를 쓰면서 for문을 돌리면 잘못된 값이 나온다.
-
-배열을 복사해서 지우는 것도 문제가 생긴다.
+이번 문제와 유사한 그리디 알고리즘 문제를 더 풀어보는 것을 계획하고 있다. 예를 들어, 다른 자원 배분 문제나 조건을 만족하는 최적의 해를 찾는 문제를 해결해 볼 예정이다. 이를 통해 알고리즘 문제 해결 능력을 더욱 향상시키고자 한다.
