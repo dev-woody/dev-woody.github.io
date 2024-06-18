@@ -1,6 +1,6 @@
 ---
 published: true
-title: 99클럽 코테 스터디 25일차 Shuffle the Array
+title: 99클럽 코테 스터디 26일차 Shuffle the Array
 date: 2024-06-14
 categories: [Coding Test]
 tags:

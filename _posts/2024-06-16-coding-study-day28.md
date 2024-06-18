@@ -1,6 +1,6 @@
 ---
 published: true
-title: 99클럽 코테 스터디 26일차 Find Words Containing Character
+title: 99클럽 코테 스터디 28일차 Find Words Containing Character
 date: 2024-06-16
 categories: [Coding Test]
 tags:
